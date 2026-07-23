@@ -39,7 +39,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #fd6e0a;
+  border: 2px solid #fd6e0a;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -50,6 +50,19 @@ img {
 }
 
 .common-btn-outline {
+  display: inline-block;
+  padding: 12px 28px;
   background-color: transparent;
   color: #fd6e0a;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.common-btn-outline:hover {
+  background-color: #fd6e0a;
+  color: #ffffff;
 }
