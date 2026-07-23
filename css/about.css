@@ -1,0 +1,56 @@
+/* About Section */
+.about-section {
+  margin: 130px auto;
+  width: 1140px;
+  height: 550px;
+  padding: 130px 150px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
+
+.about-container {
+  width: 840px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.about-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.about-description {
+  width: 830px;
+  height: 120px;
+  color: #757575;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-label {
+  color: #757575;
+  font-size: 16px;
+}
+
+.info-value {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+}
