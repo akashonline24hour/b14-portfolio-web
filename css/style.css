@@ -6,3 +6,8 @@
 
 /* imports css files */
 @import url("./global.css");
+@import url("./header.css");
+@import url("./about.css");
+@import url("./portfolio.css");
+@import url("./blog.css");
+@import url("./contact.css");

@@ -7,10 +7,15 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #181818;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 li {
@@ -25,4 +30,26 @@ img {
   max-width: 100%;
 }
 
-/* Global CSS */
+/* Common Style */
+.common-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.common-btn:hover {
+  background-color: transparent;
+  color: #fd6e0a;
+}
+
+.common-btn-outline {
+  background-color: transparent;
+  color: #fd6e0a;
+}

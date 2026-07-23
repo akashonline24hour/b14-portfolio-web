@@ -1,0 +1,40 @@
+/* Header Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%; 
+}
+
+.header-logo {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.header-logo span {
+  color: #FD6E0A;
+}
+
+.header-section nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+}
+
+.header-nav-links a {
+  transition: 0.3s;
+}
+
+.header-nav-links a:hover {
+  color: #FD6E0A;
+  font-weight: 700;
+}
